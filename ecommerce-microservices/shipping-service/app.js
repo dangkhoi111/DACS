@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 app.use(express.json());
 app.use(cors());
-mongoose.connect('mongodb://localhost:27017/shipping-db', {
+mongoose.connect('mongodb+srv://thienlong556:thienlong557@cluster0.bbv0num.mongodb.net/shipping-db', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
